@@ -23,6 +23,7 @@ h3 {
     font-family: "Montserrat-bold";
     font-size: 1.5rem;
     line-height: 1.5;
+
 }
 
 p {
@@ -127,6 +128,10 @@ body {
     text-align: center;
 }
 
+#title {
+    text-align: center;
+}
+
 .pricing-col {
     padding: 3% 2%;
 }
@@ -138,4 +143,35 @@ body {
 
 .carousel-item {
     padding: 7% 15%;
+}
+
+@media (max-width: 1028px ) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+}
+
+#cta {
+    text-align: center;
+    background-color: #FC4F4F;
+    color: #fff;
+    padding: 7% 15%;
+}
+
+.colorcha {
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 7% 15% 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.btn-ss {
+    margin: 20px 10px;
 }
